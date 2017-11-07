@@ -1,6 +1,7 @@
 import numpy as np
 
 import matplotlib.pyplot as plt
+import timeit
 
 # data1 = [6, 7.5, 8, 0, 1]
 # arr1 = np.array(data1, dtype=np.float32)
@@ -146,9 +147,9 @@ import matplotlib.pyplot as plt
 # result = np.where(cond, xarr, yarr)
 # print(result)
 
-arr = np.random.randn(4, 4)
-print(arr)
-# result = np.where(arr > 0, 2, -2)
+# arr = np.random.randn(4, 4)
+# print(arr)
+# # result = np.where(arr > 0, 2, -2)
+# # print(result)
+# result = np.where(arr > 0, 2, arr)
 # print(result)
-result = np.where(arr > 0, 2, arr)
-print(result)
